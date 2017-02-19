@@ -1,13 +1,13 @@
 @relation cities
-@attribute FirstLetterUppercase {True, False}
-@attribute StateAfter {True, False}
-@attribute City: {True, False}
-@attribute CommaAfter {True, False}
-@attribute CommaBefore {True, False}
-@attribute AfterInkeyword {True, False}
-@attribute CitykeywordAfter {True, False}
-@attribute AllCapital {True, False}
-@attribute Class {True, False}
+@attribute FirstLetterUppercase {1, 0}
+@attribute StateAfter {1, 0}
+@attribute City: {1, 0}
+@attribute CommaAfter {1, 0}
+@attribute CommaBefore {1, 0}
+@attribute AfterInkeyword {1, 0}
+@attribute CitykeywordAfter {1, 0}
+@attribute AllCapital {1, 0}
+@attribute Class {1, 0}
 @data
 1,1,0,1,0,0,0,0,1
 1,0,0,1,0,0,0,0,1

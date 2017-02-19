@@ -8,7 +8,7 @@ def getAttrType(attrName):
 	'''if attrName == 'NumOfWords' or attrName == 'AvgWordLength':
 		return 'numeric'
 	if attrName == 'FirstLetterUppercase' or attrName == 'class':'''
-	return '{True, False}'
+	return '{1, 0}'
 
 def writeToArff(data, attributes):
 	arffFile = open('./train_data/city.arff', 'w')
