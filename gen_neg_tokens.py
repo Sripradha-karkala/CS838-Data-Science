@@ -59,11 +59,11 @@ def generate_neg_tokens(file_path):
 				#Rule 4: If the word or the two words are state name, then add it to negative example
 				name_1 = words[index].translate(None, string.punctuation+string.whitespace)
 				name_2 = words[index+1].translate(None, string.punctuation+string.whitespace)
-				if name_1 in state_names:
+				if name_1.upper() in (name.upper() for name in state_names):
 					tokens.append([line, words[index]])
 					continue
 
-				if name_1+' '+name_2 in state_names:
+				if (name_1+' '+name_2).upper() in (name.upper() for name in state_names:
 					tokens.append([line, words[index]+' '+words[index+1]])
 
 	return tokens
