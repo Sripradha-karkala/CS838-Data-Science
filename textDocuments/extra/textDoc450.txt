@@ -1,5 +1,0 @@
-﻿"Title"
-Description
-Location
-Published
-Price
