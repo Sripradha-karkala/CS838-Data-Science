@@ -5,7 +5,7 @@ import string
 import rules
 
 def appendToArff(data):
-        arffFile = open('./train_data/city.arff', 'a')
+        arffFile = open('./train_data/city_i1.arff', 'a')
         for i in range(0, len(data)):
                 for j in range(0, (len(data[i])-1)):
                         arffFile.write(str(data[i][j]) + ',')
@@ -77,11 +77,14 @@ def generate_neg_tokens(file_path):
 					tokens.append([line, words[index]+' '+words[index+1]])
 					continue
 
-				if len(words[index]) > 3 and len(words[index+1]) > 3:
-					tokens.append([line, words[index]+' '+words[index+1]])
+				#if words[index].isdigit():
+				#	continue
 
-				if len(words[index]) > 3:
-					tokens.append([line, words[index]])
+				#if len(words[index]) > 3 and len(words[index+1]) > 3:
+				#	tokens.append([line, words[index]+' '+words[index+1]])
+
+				#if len(words[index]) > 3:
+				#	tokens.append([line, words[index]])
 
 	return tokens
 
@@ -100,7 +103,7 @@ if __name__== '__main__':
 			value = generate_neg_tokens(trainDocDir+filename)
 			#print value
 			inputs.extend(value)
-	#print inputs
+	#print len(inputs)
 	for value in inputs:
 		nfv = rules.generateFV(value, False)
 		#print nfv
