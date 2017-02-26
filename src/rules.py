@@ -3,17 +3,17 @@ states = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DC", "DE", "FL", "GA",
           "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", 
           "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", 
           "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY",
-          'Alabama','Alaska','Arizona','Arkansas','California','Colorado',
-         'Connecticut','Delaware','Florida','Georgia','Hawaii','Idaho', 
-         'Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana',
-         'Maine' 'Maryland','Massachusetts','Michigan','Minnesota',
-         'Mississippi', 'Missouri','Montana','Nebraska','Nevada',
-         'New Hampshire','New Jersey','New Mexico','New York',
-         'North Carolina','North Dakota','Ohio',    
-         'Oklahoma','Oregon','Pennsylvania','Rhode Island',
-         'South Carolina','South Dakota','Tennessee','Texas','Utah',
-         'Vermont','Virginia','Washington','West Virginia',
-         'Wisconsin','Wyoming']
+          'ALABAMA','ALASKA','ARIZONA','ARKANSAS','CALIFORNIA','COLORADO',
+         'CONNECTICUT','DELAWARE','FLORIDA','GEORGIA','HAWAII','IDAHO', 
+         'ILLINOIS','INDIANA','IOWA','KANSAS','KENTUCKY','LOUISIANA',
+         'MAINE' 'MARYLAND','MASSACHUSETTS','MICHIGAN','MINNESOTA',
+         'MISSISSIPPI', 'MISSOURI','MONTANA','NEBRASKA','NEVADA',
+         'NEW HAMPSHIRE','NEW JERSEY','NEW MEXICO','NEW YORK',
+         'NORTH CAROLINA','NORTH DAKOTA','OHIO',    
+         'OKLAHOMA','OREGON','PENNSYLVANIA','RHODE ISLAND',
+         'SOUTH CAROLINA','SOUTH DAKOTA','TENNESSEE','TEXAS','UTAH',
+         'VERMONT','VIRGINIA','WASHINGTON','WEST VIRGINIA',
+         'WISCONSIN','WYOMING']
 
 def extractPrevNextWords(example, when, what):
 	print example
@@ -50,6 +50,11 @@ def applyRules(example, fvtype):
 				instance.append(0)
 		if ruleName == 'StateAfter': 
 			nextWord = extractPrevNextWords(example, 'after',  searchString+',')
+			if nextWord == None:
+				nextWord = extractPrevNextWords(example, 'after',  searchString+' ')
+				if nextWord != None:
+					nextWord = nextWord.upper()
+			#print 'nextWord :',nextWord
 			if str(nextWord)[:-1] in states or nextWord in states:
 				instance.append(1)
 			else:
@@ -102,9 +107,10 @@ def applyRules(example, fvtype):
 				instance.append(0)
 		if ruleName == 'Class':
 			if fvtype == True:
-				instance.append(1)
+					instance.append(1)
 			else:
 				instance.append(0)
+	#print 'Simmi ',instance
 			
 	return instance
 

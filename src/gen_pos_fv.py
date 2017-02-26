@@ -32,7 +32,7 @@ if __name__ == '__main__':
 	for filename in os.listdir(trainDocDir):
 		#iterate over labelled txt files
 		if fnmatch.fnmatch(filename, '*.txt'):
-			#print 'working on filename: ', filename
+			print 'working on filename: ', filename
 			with open(trainDocDir+filename, 'r') as f:
 					pattern = re.compile(r'<city>(.*?)</city>')
 					for line in f:

@@ -51,8 +51,8 @@ def generate_neg_tokens(file_path):
 					continue
 
 				#If the word is not in camel case then discard it	
-				if not words[index][0].isupper():
-					continue
+				#if not words[index][0].isupper():
+				#	continue
 
 				# If the word is completely in upper case, then add it 
 				if words[index].isupper():
@@ -73,8 +73,15 @@ def generate_neg_tokens(file_path):
 					tokens.append([line, words[index]])
 					continue
 
-				if (name_1+' '+name_2).upper() in (name.upper() for name in state_names:
+				if (name_1+' '+name_2).upper() in (name.upper() for name in state_names):
 					tokens.append([line, words[index]+' '+words[index+1]])
+					continue
+
+				if len(words[index]) > 3 and len(words[index+1]) > 3:
+					tokens.append([line, words[index]+' '+words[index+1]])
+
+				if len(words[index]) > 3:
+					tokens.append([line, words[index]])
 
 	return tokens
 
