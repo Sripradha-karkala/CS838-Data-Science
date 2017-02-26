@@ -16,13 +16,13 @@ states = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DC", "DE", "FL", "GA",
          'Wisconsin','Wyoming']
 
 def extractPrevNextWords(example, when, what):
-	#print example
+	print example
 	before_keyword, keyword, after_keyword = example[0].partition(what)
 	if (when == 'after'):
-		#print 'after_keyword start :', after_keyword,'end'
+		print 'after_keyword start :', after_keyword,'end'
 		if after_keyword == '':
 			return None	
-		if after_keyword == '\n' or after_keyword == '\r' or after_keyword == '\r\n':
+		if after_keyword == '\n' or after_keyword == '\r' or after_keyword == '\r\n' or after_keyword == ' ':
 			nextWord = None
 		else:
 			nextWord = after_keyword.split()[0]
