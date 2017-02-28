@@ -3,9 +3,19 @@ import fnmatch
 import re
 import string
 import rules
+import random
+
+
+def random_pick(inputs, seed):
+	random.seed(seed)
+	tokens = []
+	for i in range(1500):
+		rand = random.randint(0, len(inputs)-1)
+		tokens.append(inputs[rand])
+	return tokens
 
 def appendToArff(data):
-        arffFile = open('./train_data/city_i1.arff', 'a')
+        arffFile = open('./train_data/city_i2.arff', 'a')
         for i in range(0, len(data)):
                 for j in range(0, (len(data[i])-1)):
                         arffFile.write(str(data[i][j]) + ',')
@@ -62,6 +72,7 @@ def generate_neg_tokens(file_path):
 				# At this point the word is in camel case
 				# Rule 2: Check if the word is united states - country name
 				# Send as a negative example
+				# Choose at random?
 				if (words[index]+words[index+1]).lower() == 'unitedstates':
 					tokens.append([line, words[index]+' '+words[index+1]])
 					continue
@@ -84,6 +95,7 @@ def generate_neg_tokens(file_path):
 				#	tokens.append([line, words[index]+' '+words[index+1]])
 
 				#if len(words[index]) > 3:
+	
 				#	tokens.append([line, words[index]])
 
 	return tokens
@@ -96,17 +108,18 @@ if __name__== '__main__':
 
 	for filename in os.listdir(trainDocDir):
 		# Iterate over all the text documents in it
-		 
 
 		if fnmatch.fnmatch(filename, '*.txt'):
 			#print "entering file"
 			value = generate_neg_tokens(trainDocDir+filename)
 			#print value
 			inputs.extend(value)
-	#print len(inputs)
+	print len(inputs)
+	inputs = random_pick(inputs,34)
+	print len(inputs)
 	for value in inputs:
 		nfv = rules.generateFV(value, False)
-		#print nfv
+		print nfv
 		data.append(nfv)
 
 	#append to arff file

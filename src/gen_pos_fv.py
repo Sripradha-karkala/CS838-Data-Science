@@ -11,7 +11,7 @@ def getAttrType(attrName):
 	return '{1, 0}'
 
 def writeToArff(data, attributes):
-	arffFile = open('./train_data/city_i1.arff', 'w')
+	arffFile = open('./train_data/city_i2.arff', 'w')
 	arffFile.write('@relation ' + 'cities' + '\n')
 	for attr in attributes:
 		arffFile.write('@attribute ' + attr + ' ' + str(getAttrType(attr)) + '\n')
