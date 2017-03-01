@@ -4,6 +4,7 @@ import re
 import string
 import rules
 import random
+import argparse
 
 
 def random_pick(inputs, seed):
@@ -14,8 +15,8 @@ def random_pick(inputs, seed):
 		tokens.append(inputs[rand])
 	return tokens
 
-def appendToArff(data):
-        arffFile = open('./train_data/city.arff', 'a')
+def appendToArff(data, filename):
+        arffFile = open(filename, 'a')
         for i in range(0, len(data)):
                 for j in range(0, (len(data[i])-1)):
                         arffFile.write(str(data[i][j]) + ',')
@@ -53,16 +54,10 @@ def generate_neg_tokens(file_path):
 			# Here we are just checking for max 2 word length, hence inspecting 
 			# two words at a time
 			words = line.split()
-			#print words
 			for index in range(len(words)-1):
 				# Rule 1: If enclosed by <city></city> discard it 
-				#print words[index]
 				if re.search('<city>.*</city>', words[index]):
 					continue
-
-				#If the word is not in camel case then discard it	
-				#if not words[index][0].isupper():
-				#	continue
 
 				# If the word is completely in upper case, then add it 
 				if words[index].isupper():
@@ -71,8 +66,6 @@ def generate_neg_tokens(file_path):
 
 				# At this point the word is in camel case
 				# Rule 2: Check if the word is united states - country name
-				# Send as a negative example
-				# Choose at random?
 				if (words[index]+words[index+1]).lower() == 'unitedstates':
 					tokens.append([line, words[index]+' '+words[index+1]])
 					continue
@@ -88,21 +81,41 @@ def generate_neg_tokens(file_path):
 					tokens.append([line, words[index]+' '+words[index+1]])
 					continue
 
-				#if words[index].isdigit():
-				#	continue
-
-				#if len(words[index]) > 3 and len(words[index+1]) > 3:
-				#	tokens.append([line, words[index]+' '+words[index+1]])
-
-				#if len(words[index]) > 3:
-	
-				#	tokens.append([line, words[index]])
-
 	return tokens
 
 if __name__== '__main__':
 
-	trainDocDir = './train_data/training_docs/'
+	'''
+		This script generates the negative tokens for 
+		generating the arff file
+
+		Usage: python gen_neg_tokens.py -f path/to/directory/with/data -o path/to/output/file -s seed
+
+		-f : Take the path to the input directory where the training/test data exists
+		-o : Path to where the output file must be generated
+		-s: Seed for randomly picking a set of negative tokens, set to 34 for now
+
+		Uses the rules.py file to generate the feature vectors
+		and append to the arff file.
+
+	'''
+
+	#Parse command line arguments
+	parser = argparse.ArgumentParser(description='Generate negative tokens and append the fv to arff')
+	parser.add_argument('-f', dest='filePath', help='The full path to the training/test documents')
+	parser.add_argument('-o', dest='outputFile', help='Path to the output arff file')
+	parser.add_argument('-s', dest='seed', help='Seed for randomly picking negative token')
+	args = parser.parse_args()
+
+	if not args.filePath or not args.outputFile or not args.seed:
+		parser.print_help()
+		exit()
+
+	if not args.outputFile.endswith('.arff'):
+		print u'Incompatible format. File must be of type *.arff'
+		exit()
+
+	trainDocDir = args.filePath
 	inputs = []
 	data = []
 
@@ -110,16 +123,12 @@ if __name__== '__main__':
 		# Iterate over all the text documents in it
 
 		if fnmatch.fnmatch(filename, '*.txt'):
-			#print "entering file"
 			value = generate_neg_tokens(trainDocDir+filename)
-			#print value
 			inputs.extend(value)
-	print len(inputs)
-	inputs = random_pick(inputs,34)
-	print len(inputs)
+
+	inputs = random_pick(inputs,args.seed)
 	for value in inputs:
 		nfv = rules.generateFV(value, False)
-		print nfv
 		data.append(nfv)
 
 	#append to arff file
@@ -127,4 +136,4 @@ if __name__== '__main__':
 		print "No text files or tags present"
 	else:
 		#append to an arff file
-		appendToArff(data)
+		appendToArff(data, args.outputFile)

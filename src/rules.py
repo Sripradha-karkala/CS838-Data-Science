@@ -16,10 +16,8 @@ states = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DC", "DE", "FL", "GA",
          'WISCONSIN','WYOMING']
 
 def extractPrevNextWords(example, when, what):
-	print example
 	before_keyword, keyword, after_keyword = example[0].partition(what)
 	if (when == 'after'):
-		print 'after_keyword start :', after_keyword,'end'
 		if after_keyword == '':
 			return None	
 		if after_keyword == '\n' or after_keyword == '\r' or after_keyword == '\r\n' or after_keyword == ' ':
@@ -33,10 +31,9 @@ def extractPrevNextWords(example, when, what):
 		return before_keyword
 
 def applyRules(example, fvtype):
-        ruleList = ['FirstLetterUppercase',  'City:',
+        ruleList = ['FirstLetterUppercase',  'stateAfter' ,'City:',
                     'CommaAfter', 'CommaBefore', 'AfterInkeyword',
                     'CitykeywordAfter', 'AllCapital', 'Class']
-	#print example
 	instance = []
 	if fvtype == True:
 		searchString = '<city>'+example[1]+'</city>'
@@ -54,7 +51,6 @@ def applyRules(example, fvtype):
 				nextWord = extractPrevNextWords(example, 'after',  searchString+' ')
 				if nextWord != None:
 					nextWord = nextWord.upper()
-			#print 'nextWord :',nextWord
 			if str(nextWord)[:-1] in states or nextWord in states:
 				instance.append(1)
 			else:
@@ -110,7 +106,6 @@ def applyRules(example, fvtype):
 					instance.append(1)
 			else:
 				instance.append(0)
-	#print 'Simmi ',instance
 			
 	return instance
 

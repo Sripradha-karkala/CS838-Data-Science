@@ -3,15 +3,13 @@ import rules
 import fnmatch
 import re
 from bs4 import BeautifulSoup
+import argparse
 
 def getAttrType(attrName):
-	'''if attrName == 'NumOfWords' or attrName == 'AvgWordLength':
-		return 'numeric'
-	if attrName == 'FirstLetterUppercase' or attrName == 'class':'''
 	return '{1, 0}'
 
-def writeToArff(data, attributes):
-	arffFile = open('./train_data/city.arff', 'w')
+def writeToArff(data, attributes, filename):
+	arffFile = open(filename, 'w')
 	arffFile.write('@relation ' + 'cities' + '\n')
 	for attr in attributes:
 		arffFile.write('@attribute ' + attr + ' ' + str(getAttrType(attr)) + '\n')
@@ -24,15 +22,31 @@ def writeToArff(data, attributes):
 	arffFile.close()
 
 if __name__ == '__main__':
-	trainDocDir = './train_data/training_docs/'
-	attributes = ['FirstLetterUppercase', 'City:',
+
+
+	#Parse command line arguments
+	parser = argparse.ArgumentParser(description='Generate negative tokens and append the fv to arff')
+	parser.add_argument('-f', dest='filePath', help='The full path to the training/test documents')
+	parser.add_argument('-o', dest='outputFile', help='Path to the output arff file')
+	args = parser.parse_args()
+
+	if not args.filePath or not args.outputFile:
+		parser.print_help()
+		exit()
+
+	if not args.outputFile.endswith('.arff'):
+		print u'Incompatible format. File must be of type *.arff'
+		exit()
+
+
+	trainDocDir = args.filePath
+	attributes = ['FirstLetterUppercase', 'stateAfter', 'City:',
                     'CommaAfter', 'CommaBefore', 'AfterInkeyword',
                     'CitykeywordAfter', 'AllCapital', 'Class']
 	data = []
 	for filename in os.listdir(trainDocDir):
 		#iterate over labelled txt files
 		if fnmatch.fnmatch(filename, '*.txt'):
-			print 'working on filename: ', filename
 			with open(trainDocDir+filename, 'r') as f:
 					pattern = re.compile(r'<city>(.*?)</city>')
 					for line in f:
@@ -44,16 +58,11 @@ if __name__ == '__main__':
 								end = match.end()
 								posExample = [sliceLine, keyword]
 								sliceLine = line[end:]
-								#print 'sliceLine: '
-								#print sliceLine
 								pfv = rules.generateFV(posExample, True)
 								data.append(pfv)
-					
-					#print pfv
-					#data.append(pfv)
 		if (len(data) == 0):
 			print "No text files or tags present"
 		else:
 			#create an arff file
-			writeToArff(data, attributes)
+			writeToArff(data, attributes, args.outputFile)
 					
