@@ -1,0 +1,30 @@
+Decision Tree
+           Precision Recall    F1        Support  
+Not City   0.930     0.987     0.957     150      
+City       0.945     0.754     0.839     46       
+Avg/Total  0.933     0.933     0.930     196      
+
+Random Forest Classifier
+           Precision Recall    F1        Support  
+Not City   0.924     0.987     0.954     150      
+City       0.947     0.730     0.823     46       
+Avg/Total  0.929     0.927     0.924     196      
+
+SVM
+           Precision Recall    F1        Support  
+Not City   0.930     0.981     0.955     150      
+City       0.923     0.757     0.831     46       
+Avg/Total  0.928     0.928     0.926     196      
+
+Logistic Regression
+           Precision Recall    F1        Support  
+Not City   0.927     0.984     0.954     150      
+City       0.934     0.743     0.827     46       
+Avg/Total  0.928     0.928     0.925     196      
+
+Linear Regression
+           Precision Recall    F1        Support  
+Not City   0.927     0.982     0.954     150      
+City       0.927     0.746     0.826     46       
+Avg/Total  0.927     0.927     0.924     196      
+
