@@ -1,0 +1,6 @@
+             precision    recall  f1-score   support
+
+   Not City       0.97      0.99      0.98      1500
+       City       0.92      0.78      0.84       226
+
+avg / total       0.96      0.96      0.96      1726
