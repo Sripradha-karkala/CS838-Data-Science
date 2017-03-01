@@ -40,7 +40,7 @@ if __name__ == '__main__':
 
 
 	trainDocDir = args.filePath
-	attributes = ['FirstLetterUppercase', 'stateAfter', 'City:',
+	attributes = ['FirstLetterUppercase', 'StateAfter', 'City:',
                     'CommaAfter', 'CommaBefore', 'AfterInkeyword',
                     'CitykeywordAfter', 'AllCapital', 'Class']
 	data = []
