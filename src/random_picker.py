@@ -1,9 +1,15 @@
 import random
 import shutil
-if __name__=='__main__':
-	trainDocDir = './train_data/training_docs/'
+import argparse
 
-	test_docs = './test_data/test_docs/'
+if __name__=='__main__':
+
+	parser = argparse.ArgumentParser(description='Generate random set of training and testing documents')
+	parser.add_argument('-t', dest='trainPath', help='The full path to the training directory')
+	parser.add_argument('-te', dest='testPath', help='The full path to the testing directory')
+	trainDocDir = trainPath
+
+	test_docs = testPath
 
 	i = 100
 
