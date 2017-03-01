@@ -15,7 +15,7 @@ def random_pick(inputs, seed):
 	return tokens
 
 def appendToArff(data):
-        arffFile = open('./train_data/city_i2.arff', 'a')
+        arffFile = open('./train_data/city.arff', 'a')
         for i in range(0, len(data)):
                 for j in range(0, (len(data[i])-1)):
                         arffFile.write(str(data[i][j]) + ',')

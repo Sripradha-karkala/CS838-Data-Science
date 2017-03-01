@@ -33,7 +33,7 @@ def extractPrevNextWords(example, when, what):
 		return before_keyword
 
 def applyRules(example, fvtype):
-        ruleList = ['FirstLetterUppercase', 'StateAfter', 'City:',
+        ruleList = ['FirstLetterUppercase',  'City:',
                     'CommaAfter', 'CommaBefore', 'AfterInkeyword',
                     'CitykeywordAfter', 'AllCapital', 'Class']
 	#print example

@@ -11,7 +11,7 @@ def getAttrType(attrName):
 	return '{1, 0}'
 
 def writeToArff(data, attributes):
-	arffFile = open('./train_data/city_i2.arff', 'w')
+	arffFile = open('./train_data/city.arff', 'w')
 	arffFile.write('@relation ' + 'cities' + '\n')
 	for attr in attributes:
 		arffFile.write('@attribute ' + attr + ' ' + str(getAttrType(attr)) + '\n')
@@ -25,7 +25,7 @@ def writeToArff(data, attributes):
 
 if __name__ == '__main__':
 	trainDocDir = './train_data/training_docs/'
-	attributes = ['FirstLetterUppercase', 'StateAfter', 'City:',
+	attributes = ['FirstLetterUppercase', 'City:',
                     'CommaAfter', 'CommaBefore', 'AfterInkeyword',
                     'CitykeywordAfter', 'AllCapital', 'Class']
 	data = []
