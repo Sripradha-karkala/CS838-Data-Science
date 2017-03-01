@@ -20,6 +20,9 @@ from sklearn.utils import shuffle
 # Set number of folds for cross-validation
 N_FOLDS = 10
 
+# Set threhold for using linear regression for binary classification
+LINREG_THRESHOLD = 0.5
+
 # Name of output file
 fout = 'city_classification_report.txt'
 
@@ -77,43 +80,6 @@ def reportScores(precision, recall, fscore, support):
 	report += u'\n'
 	return report
 
-
-def crossValidate(model, x, y):
-	"""
-	Trains models and runs StratifiedKFold cross validation
-
-	Parameters
-	----------
-	model
-		classifier to train
-	x
-		feature vectors
-	y
-		labels
-
-	Returns
-	-------
-	string
-		Text summary of the precision, recall, F1 score for each class
-	"""
-	# Create lists to store results from each fold
-	precision, recall, fscore, support = ([] for i in range(4))
-
-	kf = StratifiedKFold(N_FOLDS)
-	for k, (train, test) in enumerate(kf.split(x, y)):
-		model.fit(x[train], y[train])
-		prediction = model.predict(x[test])
-
-		p, r, f1, s = score(y[test], prediction)
-		precision.append(p)
-		recall.append(r)
-		fscore.append(f1)
-		support.append(s)
-
-	# Return metric report for average of folds
-	return reportScores(precision, recall, fscore, support)
-		
-
 def evaluateModels(x, y):
 	"""
 	Setup classifiers to train and compare
@@ -134,7 +100,7 @@ def evaluateModels(x, y):
 			'Random Forest Classifier',
 			'SVM',
 			'Logistic Regression',
-			'Linear (Ridge) Regression'
+			'Linear Regression'
 			]
 
 	models = [tree.DecisionTreeClassifier(),
@@ -146,8 +112,29 @@ def evaluateModels(x, y):
 
 	output = ''
 	for name, model in zip(names, models):
-		output += name + u'\n' 
-		output += crossValidate(model, x, y)
+		output += name + u'\n'
+
+		# Create lists to store results from each fold
+		precision, recall, fscore, support = ([] for i in range(4))
+
+		kf = StratifiedKFold(N_FOLDS)
+
+		for k, (train, test) in enumerate(kf.split(x, y)):
+			model.fit(x[train], y[train])
+			prediction = model.predict(x[test])
+
+			# Force results of linear regression into binary classification
+			if name == 'Linear Regression':
+				prediction[prediction > LINREG_THRESHOLD] = 1
+				prediction[prediction <= LINREG_THRESHOLD] = 0 
+
+			p, r, f1, s = score(y[test], prediction)
+			precision.append(p)
+			recall.append(r)
+			fscore.append(f1)
+			support.append(s)
+			
+		output += reportScores(precision, recall, fscore, support)
 	
 	return output
 
