@@ -1,0 +1,201 @@
+,_id,similarity,ltable_id,rtable_id,ltable_title,ltable_artist_name,rtable_song,rtable_artists
+0,0,1.0,658428,66710,Um Caso Raro,PÌ_lo Norte,Um caso raro,pÌ_lo norte
+1,1,1.0,338391,672346,Ballad Of Big Nothing,Elliott Smith,BALLAD OF BIG NOTHING,elliott smith
+2,2,1.0,252630,390966,Dimples,John Lee Hooker,DIMPLES,john lee hooker
+3,3,1.0,577289,431375,De Vuelta A Casa,Mercromina,DE VUELTA A CASA,mercromina
+4,4,1.0,658428,65230,Um Caso Raro,PÌ_lo Norte,Um caso raro,pÌ_lo norte
+5,5,1.0,551253,576545,Me Cago En El Amor,Tonino Carotone,Me cago en el amor,tonino carotone
+6,6,1.0,730531,650177,Shake Your Moneymaker,Elmore James,SHAKE YOUR MONEYMAKER,elmore james
+7,7,1.0,658428,66540,Um Caso Raro,PÌ_lo Norte,Um caso raro,pÌ_lo norte
+8,8,1.0,355364,723749,Whoops Apocalypse,John Otway,WHOOPS APOCALYPSE,john otway
+9,9,1.0,248698,728818,Tong Poo,Ryuichi Sakamoto,TONG POO,ryuichi sakamoto
+10,10,0.846153846154,565521,151860,Que DifÌ_cil Es Hacer El Amor En Un Simca 1000,Los Inhumanos,QuÌ© difÌ_cil es hacer el amor en un Simca 1000,los inhumanos
+11,11,0.833333333333,663657,146443,Canon In D Major,Johann Pachelbel,Canon in D,johann pachelbel
+12,12,0.833333333333,139361,629695,Yankee Doodle,George M. Cohan,YANKEE DOODLE DANDY,george m. cohan
+13,13,0.833333333333,498644,132527,Toi Mon Amour,Marc Lavoine,Toi mon amour,marc lavoine .
+14,14,0.833333333333,21127,44578,Building A Mystery (Live),Sarah McLachlan,Building a mystery,sarah mclachlan
+15,15,0.818181818182,336381,631778,Anything Goes_ I Get A Kick Out Of You,Cole Porter,I Get a Kick Out of You,cole porter
+16,16,0.818181818182,229335,236837,The Ballad Of The Brave Pink Knight,The Backyardigans,The Ballad of the Brave Pink Knight (Hey Uniqua),the backyardigans
+17,17,0.8,439142,257661,Love Is In The Air (Fran Mix),John Paul Young,Love Is In the Air ,john paul young
+18,18,0.8,328663,236881,Tuba Polka,The Backyardigans,Tuba Polka (Alternate),the backyardigans
+19,19,0.8,373684,158270,Two Hearts (Live),Phil Collins,Two Hearts,phil collins
+20,20,0.8,132951,239835,Future Shock (ReMastered),Curtis Mayfield,Future Shock,curtis mayfield
+21,21,0.8,789020,542919,Theme From Shaft,Isaac Hayes,Shaft Theme,isaac hayes
+22,22,0.777777777778,440234,489407,Baby Got Back (Rock Mix),Sir Mix A Lot,Baby Got Back,sir mix a lot
+23,23,0.777777777778,752152,124897,Fool (If You Think It's Over),Chris Rea,Fool (if you think its over),chris rea
+24,24,0.777777777778,482862,101486,Ir A MÌÁs,Los Abuelos De La Nada,Ir a mas,los abuelos de la nada
+25,25,0.75,156268,340330,Gospel Zone (LP Version),The Shadows Of Knight,Gospel Zone ,the shadows of knight
+26,26,0.75,828845,519850,Cocinando,Ray Barretto,Cocinando Suave,ray barretto
+27,27,0.75,76235,521278,2 Bad,Michael Jackson,Bad,michael jackson
+28,28,0.75,222763,301066,Talk Of The Town (Album Version),The Pretenders,Talk of the Town,the pretenders
+29,29,0.75,892274,321239,Pencil Full Of Lead (Radio Edit),Paolo Nutini,Pencil Full of Lead,paolo nutini
+30,30,0.75,117222,203992,LIVIN' IN THE LIFE,The Isley Brothers,Livin In The Life,the isley brothers
+31,31,0.75,685530,317075,Kino (5),Cabaret Voltaire,Kino,cabaret voltaire
+32,32,0.75,939372,554357,After The Gold Rush (Album Version),Neil Young,After The Gold Rush,neil young
+33,33,0.727272727273,285461,92253,Baby Did A Bad Bad Thing (Remastered Album Version),Chris Isaak,Baby Did a Bad  Bad Thing,chris isaak
+34,34,0.714285714286,461139,91307,Big Boss Man - Original,Jimmy Reed,Big Boss Man,jimmy reed
+35,35,0.714285714286,639705,61326,Say Goodnight (Edited Version),Beth Nielsen Chapman,Say Goodnight,beth nielsen chapman
+36,36,0.714285714286,281105,357791,I and I Survive,Bad Brains,I and I Rasta,bad brains
+37,37,0.714285714286,784006,31871,Life To Lifeless (Album Version),Killswitch Engage,Life to Lifeless,killswitch engage
+38,38,0.714285714286,838192,582116,Ten Feet High (Album Version),Andrea Corr,Ten Feet High,andrea corr
+39,39,0.714285714286,782606,5220,The Funeral (Album Version),Band Of Horses,The Funeral,band of horses
+40,40,0.7,420433,668916,Make It Up To You,Dolly Dots,Make it up to you,maggie lee+larry lee+de dolly dots
+41,41,0.7,443042,443572,I Feel The Earth Move,Carole King / James Taylor,I FEEL THE EARTH MOVE,carole king
+42,42,0.666666666667,937171,208868,Ice Cream,New Young Pony Club,Ice Cream (Van She Remix),new young pony club
+43,43,0.666666666667,27694,646485,Outro,Godspeed You! Black Emperor,Moya,godspeed you! black emperor
+44,44,0.666666666667,532005,142074,These Arms Of Mine [Live Europe Version],Otis Redding,These Arms of Mine,otis redding
+45,45,0.666666666667,455409,96714,Warm Whispers [XM Session],Missy Higgins,Warm Whispers,missy higgins
+46,46,0.666666666667,888387,574384,La Lluna,Joan Manuel Serrat,La tieta,joan manuel serrat
+47,47,0.666666666667,447948,24916,Doctor Jeep,Sisters Of Mercy,Dr. Jeep,sisters of mercy
+48,48,0.666666666667,685722,570614,Panic Switch (UK edit),Silversun Pickups,Panic Switch,silversun pickups
+49,49,0.666666666667,137078,572331,Que Levante La Mano,Felinos,Que levante la mano,amÌ©rico
+50,50,0.666666666667,277514,141516,El Tiempo En Las Bastillas,Fernando Ubiergo,El tiempo en las bastillas,fernando ubiergo+camila moreno
+51,51,0.666666666667,277514,141438,El Tiempo En Las Bastillas,Fernando Ubiergo,El tiempo en las bastillas,fernando ubiergo+difuntos correa
+52,52,0.666666666667,961155,2139,I'm a Doggy,Marvin Pontiac,Im A Doggy,marvin pontiac
+53,53,0.666666666667,818447,394445,Big News II (LP Version),Clutch,Big News II,clutch
+54,54,0.666666666667,214786,136373,Kingdom Of Rust (Acoustic Version),Doves,Kingdom Of Rust,doves
+55,55,0.666666666667,741189,166511,Cold Rock A Party (Explicit LP Version),MC Lyte,Cold Rock a Party,mc lyte
+56,56,0.666666666667,558425,388874,El Amor Espera,Charly Garcia,El amor espera,charly garcÌ_a
+57,57,0.666666666667,70050,501209,View From A Bridge (Raw Remix) (Edit),Kim Wilde,View From A Bridge,kim wilde
+58,58,0.666666666667,646260,239836,If I Were A Child Again (Live in Chicago),Curtis Mayfield,If I Were Only A Child Again,curtis mayfield
+59,59,0.666666666667,600474,69978,Du i mog Di,Relax,Weil i di mog,relax
+60,60,0.666666666667,720348,631778,I Get A Kick Out Of You (Instrumental),Nat King Cole,I Get a Kick Out of You,cole porter
+61,61,0.666666666667,459552,428801,Square One (Album Version),Tom Petty,Square One,tom petty
+62,62,0.666666666667,723723,22001,El Hambre,Joan Manuel Serrat,El drapaire,joan manuel serrat
+63,63,0.666666666667,599342,544416,Halloween - Theme,John Carpenter,Theme from Halloween,john carpenter
+64,64,0.666666666667,289971,217314,Missin You (Album Version),Trey Songz,Missin You,trey songz
+65,65,0.666666666667,925153,394433,Big News I (LP Version),Clutch,Big News I,clutch
+66,66,0.666666666667,567974,566069,State Of Grace (Album Version),Seal,State Of Grace,seal
+67,67,0.636363636364,298172,54512,Quiero Beber Hasta Perder El Control (2000),Los Secretos,Quiero beber hasta perder el control,enrique urquijo+los secretos
+68,68,0.625,209801,538945,Big Yellow Taxi (Remastered LP Version),Joni Mitchell,Big Yellow Taxi,joni mitchell
+69,69,0.625,569580,154849,Groove is in the Heart,Rick Braun,Groove Is In The Heart,dee-lite
+70,70,0.625,522472,34013,Bones Theme (DJ Corporate Remix),The Crystal Method,Bones Theme,the crystal method
+71,71,0.625,298411,63111,New Day (2002 Digital Remaster),Misty In Roots,New Day,misty in roots
+72,72,0.625,670566,240768,Lonesome Valley (from Nashville Moon),Magnolia Electric Co.,Lonesome Valley,magnolia electric co.
+73,73,0.615384615385,713620,555215,(There You Go) Telling Me No Again (feat. Akon),Keith Sweat, (THERE YOU GO) TELLING ME NO AGAIN,keith sweat+bobby wooten
+74,74,0.615384615385,336381,530350,Anything Goes_ I Get A Kick Out Of You,Cole Porter,I Get a Kick Out of You,cole porter+frank sinatra
+75,75,0.615384615385,720348,530350,I Get A Kick Out Of You (Instrumental),Nat King Cole,I Get a Kick Out of You,cole porter+frank sinatra
+76,76,0.615384615385,441570,687540,Bury Me Not On The Lone Prairie,The Carter Family,The Dying Cowboy aka Bury Me Not on the Lone Prairie,
+77,77,0.6,950339,335104,Dead Anyway,Thomas Newman,Still Dead,thomas newman
+78,78,0.6,284551,177629,River (LP Version),Terry Reid,River,terry reid
+79,79,0.6,126904,697536,As Hard As It Is,Fine Young Cannibals,Hard as It Is,david steele+fine young cannibals
+80,80,0.6,247363,599874,One Day At A Time,Willie Nelson,ONE DAY AT A TIME,willie nelson+hank cochran+janie fricke
+81,81,0.6,325290,654094,Night Talk,Jan Hammer,Late Night,jan hammer
+82,82,0.6,648193,734436,Volxjammer,Hubert von Goisern,Juchitzer,hubert von goisern
+83,83,0.6,215274,552613,Like A Star (Live At Webster Hall),Corinne Bailey Rae,Like A Star,corinne bailey rae
+84,84,0.6,722722,127405,Redemption Day,Sheryl Crow,This Day,sheryl crow
+85,85,0.6,372252,440289,Carmen Suite: Intermezzo,Georges Bizet,Carmen,georges bizet
+86,86,0.6,410799,644888,Gone With The Wind - Tara's Theme,Max Steiner,Gone with the Wind Suite,max steiner
+87,87,0.6,580491,508619,Quand La Musique Est Bonne (Live),Jean-Jacques Goldman,Quand la musique est bonne,jean-jacques goldman+amel bent+soprano
+88,88,0.6,372252,486415,Carmen Suite: Intermezzo,Georges Bizet,Carmen,georges bizet
+89,89,0.6,898398,605823,Dr. Greenthumb,Cypress Hill,Dr. Dedoverde,cypress hill
+90,90,0.6,552971,530005,Im Not a Juvenile Delinquent,Frankie Lymon,Im NOT A JUVENILE DELINQUENT,frankie lymon+the teenagers+morris levy
+91,91,0.6,364952,558614,Acetone,The Crystal Method,Roboslut,the crystal method
+92,92,0.6,904865,58522,I Kissed A Girl (Jason Nevins Funkrokr Edit),Katy Perry,I Kissed a Girl,katy perry
+93,93,0.6,863493,448360,The Mountain (Album Version),DevilDriver,The Mountain,devildriver
+94,94,0.6,85923,536909,Emergency,The Answering Machine,Lightbulbs,the answering machine
+95,95,0.6,349983,123504,Nothin' But A Heartache (LP Version),The Doobie Brothers,Nothin But a Heartache,the doobie brothers
+96,96,0.6,418071,54620,Otra Vez,Chetes,OTRA VEZ,gerardo garza chetes
+97,97,0.6,48010,281882,AWY FRM U,Oberhofer,Away Frm U,oberhofer
+98,98,0.6,768494,197061,World In My Eyes (Dub In My Eyes),Depeche Mode,World in My Eyes,depeche mode
+99,99,0.6,722722,127353,Redemption Day,Sheryl Crow,This Day,sheryl crow
+100,100,0.6,730682,496284,Waltz Of The Flowers From  Nutcracker,Pyotr Il'yich Tchaikovsky,Waltz of the Flowers,pyotr ilyich tchaikovsky
+101,101,0.6,897429,413586,What Do You Want From Me,Forever The Sickest Kids,WHAT DO YOU WANT FROM ME,caleb turman+austin bello+jonathan cook+kent garrison+forever the sickest kids
+102,102,0.6,354141,672251,Menuet From String Quintet No. 5 In E Major_ Op. 13,Luigi Boccherini,String Quintet In E  Op. 13 No. 5: Minuet,luigi boccherini
+103,103,0.583333333333,672389,538599,Cuando Ya Me Empiece A Quedar Solo,Sui Generis,Cuando ya me empiece a quedar solo,charly garcÌ_a+mercedes sosa
+104,104,0.571428571429,277450,697013,Leaving Shire (2002 Digital Remaster),Bo Hansson,Leaving Shire,bo hansson
+105,105,0.571428571429,167266,386096,I Smell Trouble,Buddy Guy,I SMELL A RAT,buddy guy
+106,106,0.571428571429,843855,312829,Party Crashers (Headman Dub Mix),Radio 4,Party Crashers,radio 4
+107,107,0.571428571429,438517,45630,Space Monkeys (Album Version),The Dust Brothers,Space Monkeys,dust brothers
+108,108,0.571428571429,366493,284395,One Week (Live 5/01/04 Glasgow),Barenaked Ladies,One Week,barenaked ladies
+109,109,0.571428571429,15934,124659,Love Is All,Spandau Ballet,This Is the Love,spandau ballet
+110,110,0.571428571429,190618,517935,Get Outta My Dreams_ Get Into My Car,Billy Ocean,GET OUTTA MY DREAMS  GET INTO MY CAR,robert john lange+billy ocean
+111,111,0.571428571429,339236,620905,TÌ© Para Tres,Soda Stereo,TÌ© para tres,gustavo cerati+soda stereo
+112,112,0.571428571429,28690,192146,The Cap'm,They Might Be Giants,Istanbul,they might be giants
+113,113,0.571428571429,764215,25268,Breaking the law (live),Judas Priest,Breakin The Law,judas priest
+114,114,0.571428571429,870910,569341,Wonka's Welcome Song,Danny Elfman,The Munchkin Welcome Song,danny elfman
+115,115,0.571428571429,137233,357788,Big Takeover (1991 Digital Remaster),Bad Brains,Big Takeover,bad brains
+116,116,0.571428571429,127132,30124,Wicked Game (Remastered Album Version),Chris Isaak,Wicked Game,chris isaak
+117,117,0.571428571429,385866,267503,Theme From Love Story (Finale),Francis Lai,Love Story,francis lai
+118,118,0.571428571429,544709,204259,Liebe Und LÌ_gen,Klaus Lage Band,Lieben und lÌ_gen,klaus lage
+119,119,0.571428571429,887965,439084,Eve Of Destruction,Barry McGuire,EVE OF DESTRUCTION,p.f. sloan+barry mcguire
+120,120,0.571428571429,471117,309465,Hunting high and low,STRATOVARIUS,Hunting High And Low,pÌ´l waaktaar+a-ha
+121,121,0.571428571429,320972,617431,Young Americans (2007 Digital Remaster),David Bowie,Young Americans,david bowie
+122,122,0.571428571429,325313,570549,Alternative 3 (2005 Digital Remaster),Brian Eno,Alternative 3,brian eno
+123,123,0.555555555556,930887,727384,Never Gonna Stop (The Red Red Kroovy),Rob Zombie,Never Gonna Stop,rob zombie
+124,124,0.555555555556,932136,411836,Be Bop A Lula,Gene Vincent,BE BOP A LULA,gene vincent+donald graves+tex davis
+125,125,0.555555555556,122469,86271,I Don'T Think I Am,The Silly Pillows,I Think I Can,the pillows
+126,126,0.555555555556,242785,721925,Hold what you got,JOE TEX,Hold on to What Youve Got,joe tex
+127,127,0.555555555556,824661,189917,I Don't Feel Like Dancin',Scissor Sisters,I dont feel like dancing,scissor sisters
+128,128,0.555555555556,66385,152615,One Step Closer [Live At Milton Keynes],Linkin Park,One Step Closer,linkin park
+129,129,0.545454545455,302291,485310,Que Reste-T-Il De Nos Amours ?,Aimable,Que reste-t-il de nos amours ?,lÌ©o chauliac+charles trenet+patricia kaas
+130,130,0.545454545455,697055,586529,Los Libros De La Buena Memoria,Invisible,Los libros de la buena memoria,luis alberto spinetta+fito pÌÁez
+131,131,0.545454545455,56900,94980,Say Say Say (Waiting 4 U) (Patric & Timo Remix),Hi-Tack,Say Say Say (Waiting 4 U),
+132,132,0.545454545455,4202,541635,The Land Of Rape And Honey (Album Version),Ministry,The Land of Rape & Honey (Live),ministry
+133,133,0.545454545455,411126,159133,Vale Ki Allo Piato Sto Trapezi,Viki Mosholiou,Vale ki allo piato sto trapezi,vicky mosholiou+stavros xarhakos
+134,134,0.545454545455,456047,299983,Blame It On The Boogie,The Jacksons,Blame it on the Boogie,mick jackson+dave jackson+elmar krohn+the jacksons
+135,135,0.5,37071,303359,We Will Rock You (Live In Ukraine),Queen + Paul Rodgers,We Will Rock You,five + queen
+136,136,0.5,790654,605059,Jacques higelin,Tango,Theme ,jacques higelin
+137,137,0.5,279392,581058,La De Los NiÌ±os,SFDK,Los niÌ±os de la soledad,carlos vives
+138,138,0.5,316847,248967,Senorita,Justin Timberlake,SexyBack,justin timberlake
+139,139,0.5,464517,293476,It Mek,Desmond Dekker & The Aces,Ah It Mek,desmond dekker
+140,140,0.5,954959,162619,Devil Made Me Do It 2 (Clean),Scum of the Earth,The Devil Made Me Do It,chicosci
+141,141,0.5,953873,341139,Shot In The Dark,Utopia,Crawling in the Dark,
+142,142,0.5,194195,180346,Money,Hans Zimmer,Discombobulate,hans zimmer
+143,143,0.5,940045,175536,18,The Harlem Shakes,Josh Studies,the harlem shakes
+144,144,0.5,193289,685986,Waterfall,The Stone Roses,Elephant Stone,the stone roses
+145,145,0.5,56813,721102,Streets of Laredo,The Grassmasters,The Streets of Cairo,
+146,146,0.5,281402,372559,There's A Kind Of Hush (All Over The World) (2003 Digital Remaster),Herman's Hermits,Theres a Kind of Hush (All Over the World),les reed+geoff stephens+hermans hermits
+147,147,0.5,114628,414908,Earthquake,Yma Sumac,Xtabay,yma sumac
+148,148,0.5,128154,195936,Suave,Luis Miguel,Inolvidable,luis miguel
+149,149,0.5,667656,574384,La Aristocracia del Barrio,Joan Manuel Serrat,La tieta,joan manuel serrat
+150,150,0.5,290456,511075,Korsikalainen,Kauko RÌ¦yhkÌ_,Lapinpoika,kauko rÌ¦yhkÌ_
+151,151,0.5,472367,723292,Bilder einer Ausstellung / Pictures At An Exhibition 'Der Gnom,Modest Mussorgsky,Pictures at an Exhibition,modest mussorgsky
+152,152,0.5,377593,344803,Au Claire De La Lune,The Highwaymen,Au Clair de la Lune,
+153,153,0.5,27228,668946,Night Is Young,love like blood,Love Like Blood,
+154,154,0.5,266900,97838,Someday,Lionel Richie,Easy,lionel richie
+155,155,0.5,900871,502665,Abide With Me,Thelonious Monk Septet,Abide with me,william h. monk
+156,156,0.5,227527,81406,Outside,George Michael,Faith,george michael
+157,157,0.5,640335,53272,Carmen Suite: Gipsy Dance,Georges Bizet,Carmen - Gypsy Dance,georges bizet
+158,158,0.5,565019,354916,Ah! Si Vous Connaissiez Ma Poule,Maurice Chevalier,Ah ! Si vous connaissiez ma poule,charles borel-clerc+maurice chevalier
+159,159,0.5,730422,337707,Destiny,Tenacious D,Wonderboy,tenacious d
+160,160,0.5,164125,668946,Rain (The Cult),love like blood,Love Like Blood,
+161,161,0.5,186121,601898,La Luz De Tus Ojos Grises,Bambino,La luz de tus ojos,fernando garcÌ_a morcillo+joselito
+162,162,0.5,78706,699073,Tears Never Dry (Original Mix),Stephen Simmonds,Tears Never Die,stephen simmonds
+163,163,0.5,640335,486415,Carmen Suite: Gipsy Dance,Georges Bizet,Carmen,georges bizet
+164,164,0.5,764342,204877,Alice's Theme,Danny Elfman,The Simpsons Theme,danny elfman
+165,165,0.5,672033,85822,Serenade,Steve Miller Band,Jungle Love,steve miller band
+166,166,0.5,702210,149494,Love Is All Around (The Mary Tyler Moor Show Theme),Sonny Curtis,Love Is All Around,sonny curtis
+167,167,0.5,122789,333259,All The Way,Steve Tyrell,ALL THE WAY,steve schiff+jo julian+arthur barrow
+168,168,0.5,773091,79247,Heartbeat,Leona Lewis,Happy,leona lewis
+169,169,0.5,242645,416763,MÌ¼sica en la noche,Paloma San Basilio,MÌ¼sica (Medley),paloma san basilio
+170,170,0.5,203213,24916,More,Sisters Of Mercy,Dr. Jeep,sisters of mercy
+171,171,0.5,702210,149438,Love Is All Around (The Mary Tyler Moor Show Theme),Sonny Curtis,Love Is All Around,sonny curtis
+172,172,0.5,953937,318065,The Big House,Stephen Bishop,Animal House,stephen bishop
+173,173,0.5,593122,464837,The Lass Of Killiecrankie,Harry Lauder,Killiecrankie,harry lauder
+174,174,0.5,663657,456669,Canon In D Major,Johann Pachelbel,Canon,johann pachelbel
+175,175,0.5,415986,58611,Playing The Odds,James Horner,The Date,james horner
+176,176,0.5,790080,305878,Trouble (New Radio Remix),Ray LaMontagne,Trouble,ray lamontagne
+177,177,0.5,730807,465339,Plum Theme,Ego Plum,Jolly Man Theme,ego plum
+178,178,0.5,764342,68723,Alice's Theme,Danny Elfman,Desperate Housewives Theme,danny elfman
+179,179,0.5,142938,97975,Do you really want ot hurt me,Tolchock,Do You Really Want to Hurt Me,mark ronson+boy george
+180,180,0.5,492338,73668,LÌ_gner,Wolfgang Ambros,Schaffnerlos,wolfgang ambros
+181,181,0.5,936012,151860,Que DifÌ_cil Es Hacer El Amor En Un Simca 1000,La Banda Del Capitan Canalla,QuÌ© difÌ_cil es hacer el amor en un Simca 1000,los inhumanos
+182,182,0.5,553784,651798,The Future Sound Of Music,Ulver,The Sound of Your Music,ex-boyfriends
+183,183,0.5,764495,343943,Living In The U.S.A. (1991 Digital Remaster),Steve Miller Band,Living in the USA,steve miller+steve miller band
+184,184,0.5,571690,20273,Rollerblades,Eliza Doolittle,Nobody,eliza doolittle
+185,185,0.5,464054,337137,Somos,Willy Chirino,Cornelio,willy chirino
+186,186,0.5,28690,153441,The Cap'm,They Might Be Giants,Hot Dog!,they might be giants
+187,187,0.5,801843,685748,O Come O Come Emmanuel (Green) (S. Green),Steve Green,O Come  O Come Emmanuel,
+188,188,0.5,588722,523885,The Medic Theme,Les Baxter,Lassie Theme,les baxter
+189,189,0.5,115146,565342,Let The Games Begin (Edited),Mack 10,Let the Games Begin,immediate
+190,190,0.5,640335,440289,Carmen Suite: Gipsy Dance,Georges Bizet,Carmen,georges bizet
+191,191,0.5,702210,149488,Love Is All Around (The Mary Tyler Moor Show Theme),Sonny Curtis,Love Is All Around,sonny curtis
+192,192,0.5,329590,175189,Cuando Me Vaya,Melocos,Cuando me vaya,melocos+natalia jimÌ©nez
+193,193,0.5,28690,153523,The Cap'm,They Might Be Giants,Hot Dog!,they might be giants
+194,194,0.5,621693,24916,1959,Sisters Of Mercy,Dr. Jeep,sisters of mercy
+195,195,0.5,61880,670213,When I See You,Macy Gray,I See You Everywhere,allan gray
+196,196,0.5,458302,150162,A Little Bit More (Live),Wreckless Eric,Just A Little Bit More,
+197,197,0.5,24707,709966,Because You Loved Me (Theme from 'Up Close and Personal'),CÌ©line Dion,Because You Loved Me,cÌ©line dion
+198,198,0.5,28690,153480,The Cap'm,They Might Be Giants,Hot Dog!,they might be giants
+199,199,0.5,519779,25484,Aids,Leo Jaime,Adoro,leo jaime

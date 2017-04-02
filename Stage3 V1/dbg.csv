@@ -1,0 +1,201 @@
+,_id,similarity,ltable_id,rtable_id,ltable_title,ltable_artist_name,rtable_song,rtable_artists
+0,0,0.5,848977,540469,Brian Eno,MGMT,Aragon,brian eno
+1,1,0.5,164125,668946,Rain (The Cult),love like blood,Love Like Blood,
+2,2,0.5,629802,433493,Ham,Dead Man Ray,Dead Man,
+3,3,0.5,790654,605059,Jacques higelin,Tango,Theme ,jacques higelin
+4,4,0.5,782830,216311,Black Gold,Y&T,Shine,black gold
+5,5,0.5,896984,433493,Bread,Dead Man Ray,Dead Man,
+6,6,0.5,27228,668946,Night Is Young,love like blood,Love Like Blood,
+7,7,0.5,453779,669265,Words,Doves,Doves,
+8,8,0.428571428571,9296,91307,Full Brazilian,Big Boss Man,Big Boss Man,jimmy reed
+9,9,0.428571428571,448608,285628,The Body Electric,Rush,The Rush,pedro rousseau+fresh body shop
+10,10,0.428571428571,678895,640262,The Law,Sunz Of Man,The Way of A Man,
+11,11,0.428571428571,113149,301180,Crane Game,Ashes to Ashes,Ashes to Ashes,david bowie
+12,12,0.416666666667,694379,416074,War Pigs (Featuring Steven Drozd of the Flaming Lips),Cake,Drone,steven drozd  of the flaming lips
+13,13,0.4,544020,602895,The New Order,Veljanov,Skullcrusher,new order
+14,14,0.4,585918,107277,Kiss the Pig,Today Is The Day,The Day Is My Enemy,the prodigy
+15,15,0.4,20395,337510,Faulter,Strung Out,Strung Out,roger smalley
+16,16,0.4,848977,570549,Brian Eno,MGMT,Alternative 3,brian eno
+17,17,0.4,291431,103939,Richard,Billy Bragg,Tracking Billy,richard marvin
+18,18,0.4,548453,16394,Bloody,ARRESTED DEVELOPMENT,Arrested Development,david schwartz
+19,19,0.4,315927,337510,Cemetery,Strung Out,Strung Out,roger smalley
+20,20,0.4,897916,608565,Vuelve A Mi,Selena,Popurri a Selena,
+21,21,0.4,300814,284567,Broken,Bang Bang,Bang Bang,dizzy gillespie
+22,22,0.4,706740,433643,Orange Street,The Selecter,Again,orange street
+23,23,0.375,421773,516815,Peter Gunn,The Classics Big Band,Big Band Blast,peter allen
+24,24,0.375,960990,203309,The Shadowchamber,Night In Gales,Tumble In The Night,desmond child+rouge
+25,25,0.375,746472,175849,Beginning of The End,Trance Control,Control,serpents of the she
+26,26,0.375,7233,613778,Introducing,Boys Night Out,Boys Night Out,kris kurry+eddie wilde+k.k. wilde
+27,27,0.375,692525,676060,Introduction,I Am The Pilot,I Am the Mercury,jimmie spheeris
+28,28,0.375,689766,520923,The Swarm,At The Gates,Up at the Lake,the charlatans
+29,29,0.375,176672,188473,Let's Wrestle,Joan Of Arc,Joan of Arc,emily wells+jeremy ross
+30,30,0.375,692525,405379,Introduction,I Am The Pilot,I Am,the will to power
+31,31,0.375,940344,634665,New York City,Zane,Ride That Wave,new york city band
+32,32,0.375,960990,202318,The Shadowchamber,Night In Gales,Night in My Veins,the pretenders
+33,33,0.375,960990,477701,The Shadowchamber,Night In Gales,Cry In The Night,hamilton+joe frank+weber
+34,34,0.375,960990,482055,The Shadowchamber,Night In Gales,Rainy Night in Soho,the pogues
+35,35,0.375,842721,551261,Space Is the Place,Sun Ra Arkestra,The Sun is Shinig,
+36,36,0.375,832710,92568,Rainbow In The Sky,Ziggy Marley,Home,explosions in the sky
+37,37,0.375,918207,56662,21st Century Digital Girl,Groove Coverage,Dance Doctor,21st century girl
+38,38,0.375,455075,668946,A Strange Day (The Cure),love like blood,Love Like Blood,
+39,39,0.375,788305,195301,Tigers And Sharks,You Me At Six,You and Me,you+me
+40,40,0.375,253587,152834,Left Out In The Rain,Air Traffic,In The Air Tonight,
+41,41,0.375,365662,305930,The Change,Worth Dying For,The Only Thing Worth Fighting For,
+42,42,0.375,490988,92568,Spirit In The Sky,Norman Greenbaum,Home,explosions in the sky
+43,43,0.375,170559,565645,On The Hill,The Wolfgang Press,The Wheels On The Bus,
+44,44,0.375,294750,5344,The Angels Listened In,The Crests,In The Mood,the syndakit
+45,45,0.375,7233,353409,Introducing,Boys Night Out,BOYS NIGHT OUT,tower of power+ellis hall
+46,46,0.375,575480,178122,Down In The Ghetto,Nitty Gritty,The Nitty Gritty,shirley ellis
+47,47,0.363636363636,805412,673911,Wicker Man,The More I See,The More I See You,mack gordon+harry warren+chris montez
+48,48,0.363636363636,85692,10509,Things That Go Jingle In The Night,Hall Of Fame,Hall of Fame,the script
+49,49,0.357142857143,490039,554630,Power in the Blood,The Sons Of the Pioneers,The Story of the Lady in the Fan,bonnie bonnell
+50,50,0.333333333333,203856,474911,Roxanne,The Police,Runnin From The Police,c-murder+mystikal
+51,51,0.333333333333,717355,362308,The Plan (Reprise) ,Madlib The Beat Konducta,Baptize the Beat,the system
+52,52,0.333333333333,47977,165466,Looking For A Wall,Smash Mouth,Gun For A Mouth,david poe
+53,53,0.333333333333,789417,10599,A Shine On Your Shoe,The Hi-Lo's,A Night On The Town,
+54,54,0.333333333333,177899,311101,Hold On,The Chi-Lites,On The Run,therealjonsmith
+55,55,0.333333333333,191725,629611,Starlight,Young Heart Attack,Heart Attack,official version
+56,56,0.333333333333,796829,5344,Moving In The Right Direction,The Pasadenas,In The Mood,the syndakit
+57,57,0.333333333333,12017,443880,Dick Tracy,The Skatalites,The Wedge,dick dale
+58,58,0.333333333333,283633,170958,The Bridge,Sun Dial,Under the Sun,cheryl
+59,59,0.333333333333,71660,259410,On The Radio,Manuel Tur,New Cannonball Blues,tv on the radio
+60,60,0.333333333333,283633,551261,The Bridge,Sun Dial,The Sun is Shinig,
+61,61,0.333333333333,213591,449534,In The Songs,Midtown,Fists in the Sky,
+62,62,0.333333333333,692525,458164,Introduction,I Am The Pilot,I Am a Gay Caballero,the caballero
+63,63,0.333333333333,512786,565645,The House On Vine Street,The Greencards,The Wheels On The Bus,
+64,64,0.333333333333,171695,604189,Gangsta,De La Ghetto,La Scotish de Sarreguemines,
+65,65,0.333333333333,863096,634665,New York City Live,JS16,Ride That Wave,new york city band
+66,66,0.333333333333,692525,149664,Introduction,I Am The Pilot,I Am a Cider Drinker,the wurzels
+67,67,0.333333333333,583657,73910,Celebration,Dora The Explorer,Dora the Explorer Theme,josh sitron+billy straus+sarah durkee
+68,68,0.333333333333,179480,5344,The City In The Sea,The Ocean,In The Mood,the syndakit
+69,69,0.333333333333,580689,566511,Raise the Barrel,The Pacific Ocean,Columbia  the Gem of the Ocean,
+70,70,0.333333333333,113865,5344,Morning In The Moonlight,Saves The Day,In The Mood,the syndakit
+71,71,0.333333333333,838965,5344,in the eye of the storm,Zia,In The Mood,the syndakit
+72,72,0.333333333333,213591,341139,In The Songs,Midtown,Crawling in the Dark,
+73,73,0.333333333333,911571,400190,Bad Religion,Motorhead,Ten in 2010,bad religion
+74,74,0.333333333333,618624,670738,Whipping Boy,House of Freaks,House of Argyle,
+75,75,0.333333333333,177899,670168,Hold On,The Chi-Lites,Get On,the dirtmitts
+76,76,0.333333333333,786692,622378,Blackout,(Hed) Planet Earth,Planet Earth,wally lopez
+77,77,0.333333333333,216977,110475,EveryGirl In The World,Young Money,Were in the Money,harry warren
+78,78,0.333333333333,912547,104480,Preludes,A Shoreline Dream,Just A Dream,nena
+79,79,0.333333333333,944515,558614,The Prophetic Method,Zyklon,Roboslut,the crystal method
+80,80,0.333333333333,283302,5344,Eyeballs In The Sky,The Firesign Theatre,In The Mood,the syndakit
+81,81,0.333333333333,625076,347758,Australia,Coloured Stone,Stone,
+82,82,0.333333333333,855357,511101,From The Station,Soltero,Tears From the Moon,
+83,83,0.333333333333,832135,5344,Dancing In The Light,The Rolling Stones,In The Mood,the syndakit
+84,84,0.333333333333,352553,363600,Autorelocator,At The Drive-In,At The Restaurant,anastasia
+85,85,0.333333333333,35714,5344,The Night Turns,Whispers In The Shadow,In The Mood,the syndakit
+86,86,0.333333333333,121286,378378,Home,Ben's Brother,Brother,
+87,87,0.333333333333,910065,567161,True To Myself,Ridin Thumb,Ridin My Thumb to Mexico,johnny rodriguez
+88,88,0.333333333333,274494,136449,Till Morning Comes,We Were the States,We Were Aborted,the cribs
+89,89,0.333333333333,676134,497675,Pushing Up Daisies,On Broken Wings,Broken Wings,
+90,90,0.333333333333,764193,234008,Marianas Trench,August Burns Red, Stutter,marianas trench
+91,91,0.333333333333,496712,131756,The Crash Of Angel Wings,The Waterboys,Enter the Dream,the angel
+92,92,0.333333333333,369076,114455,Dumb,The Beautiful South,Hey Beautiful,the solids
+93,93,0.333333333333,173993,25516,The Race Is On,George Jones,On The Beach,honey is cool
+94,94,0.333333333333,150780,28688,The Blame,All Star United,The Star,aurea
+95,95,0.333333333333,362401,357791,Read And Weep,I Against I,I and I Rasta,bad brains
+96,96,0.333333333333,571477,649399,FATHER'S DAY,Big Dipper,Big Dipper,nicholas britell
+97,97,0.333333333333,213591,294785,In The Songs,Midtown,Turkey in the Straw,
+98,98,0.333333333333,692525,594942,Introduction,I Am The Pilot,I Am The Greatest,john lennon+ringo starr
+99,99,0.333333333333,71660,173655,On The Radio,Manuel Tur,Wolf Like Me,tv on the radio
+100,100,0.333333333333,924232,634665,New York City,The Products,Ride That Wave,new york city band
+101,101,0.333333333333,198514,448360,Leatherwood,The Ozark Mountain Daredevils,The Mountain,devildriver
+102,102,0.333333333333,71660,281754,On The Radio,Manuel Tur,New Cannonball Blues,tv on the radio
+103,103,0.333333333333,107739,636232,Introduction,In Blood We Trust,We In,kadeve+t.o.b.i.a.s.
+104,104,0.333333333333,43305,565645,The Road Goes On Forever,The Highwaymen,The Wheels On The Bus,
+105,105,0.333333333333,570811,601461,Shovel,Aesop Rock,Rock,
+106,106,0.333333333333,369076,114374,Dumb,The Beautiful South,Hey Beautiful,the solids
+107,107,0.333333333333,644590,565645,The Power Is On,The Go! Team,The Wheels On The Bus,
+108,108,0.333333333333,326083,107277,Sidewinder,Today Is The Day,The Day Is My Enemy,the prodigy
+109,109,0.333333333333,801864,332541,Billy IV,Oh Susanna,Oh  Susanna,stephen foster
+110,110,0.333333333333,42029,127176,Suicide King,Scarlet,Scarlet,
+111,111,0.333333333333,890611,313694,It Began In The Wind,Echo Is Your Love,Is It In My Head?,the who
+112,112,0.333333333333,456047,565645,Blame It On The Boogie,The Jacksons,The Wheels On The Bus,
+113,113,0.333333333333,77243,107277,Temple of the Morning Star,Today Is The Day,The Day Is My Enemy,the prodigy
+114,114,0.333333333333,16776,465837,New York,Tupac,Interlude,new york philharmonic+aaron copland
+115,115,0.333333333333,213591,395538,In The Songs,Midtown,Turkey in the Straw,
+116,116,0.333333333333,213591,152834,In The Songs,Midtown,In The Air Tonight,
+117,117,0.333333333333,86436,566160,Backyard Joey,Avoid One Thing,One Small Thing,
+118,118,0.333333333333,719557,207081,Moorestown,Sun Kil Moon,Brother Sun  Sister Moon,
+119,119,0.333333333333,380011,284921,Pocket Change,The Wild Magnolias,Walkin the Wild,
+120,120,0.333333333333,283302,92568,Eyeballs In The Sky,The Firesign Theatre,Home,explosions in the sky
+121,121,0.333333333333,456610,453339,Night for love,You Dee,Anything For You,
+122,122,0.333333333333,725279,204543,Fuck In A,Gang Green,Green Peas in a Pod,jessie farrell
+123,123,0.333333333333,425869,26888,The Slightest Touch,Five Star,The Star,aurea
+124,124,0.333333333333,582669,295278,The Passenger,Iggy Pop,Pop Goes the Weasel,
+125,125,0.333333333333,117222,5344,LIVIN' IN THE LIFE,The Isley Brothers,In The Mood,the syndakit
+126,126,0.333333333333,674615,713626,Lightbulbs,The Answering Machine,Machine Gun,the commodores
+127,127,0.333333333333,812849,21112,Grand Divider,We Are The Fury,We Are the Champions,freddie mercury+queen
+128,128,0.333333333333,114034,64009,The Great Escape,Whatever It Takes,Whatever It Takes,jody colero+stephen stohn+studz
+129,129,0.333333333333,270253,208756,How The Dead Live,Monster Movie,Movie Monster,dead bundy+the neat neats
+130,130,0.333333333333,312035,471357,A Little Groove,The Herbaliser,Help! Im a Fish,the little trees+creamy
+131,131,0.333333333333,869429,5344,Stuck In The Middle,The Burning Hotels,In The Mood,the syndakit
+132,132,0.333333333333,789528,475084,Dave To The Rescue,John Debney,Welcome To The Party,dave powell
+133,133,0.333333333333,818966,367499,Shameless,Wasted Time,Time,
+134,134,0.333333333333,479921,311101,On The Money,Floor,On The Run,therealjonsmith
+135,135,0.333333333333,13175,236884,Cover,The Lilac Time,Feeding Time,the backyardigans
+136,136,0.333333333333,114034,63757,The Great Escape,Whatever It Takes,Whatever It Takes,jody colero+stephen stohn+jakalope
+137,137,0.333333333333,369076,114039,Dumb,The Beautiful South,Hey Beautiful,the solids
+138,138,0.333333333333,150780,28058,The Blame,All Star United,The Star,aurea
+139,139,0.333333333333,425869,28238,The Slightest Touch,Five Star,The Star,aurea
+140,140,0.333333333333,911549,467626,Germania,DJ Hell,Hell,
+141,141,0.333333333333,425869,28058,The Slightest Touch,Five Star,The Star,aurea
+142,142,0.333333333333,775225,696097,Follow The Jack,Floor,RayD,the jack lords
+143,143,0.333333333333,344436,540090,Fingers,The Almighty Trigger Happy,The Happy Wanderer,
+144,144,0.333333333333,425869,28688,The Slightest Touch,Five Star,The Star,aurea
+145,145,0.333333333333,775421,340330,Shadows of the Night,The Scientists,Gospel Zone ,the shadows of knight
+146,146,0.333333333333,114034,63869,The Great Escape,Whatever It Takes,Whatever It Takes,colero+stephen stohn+tyler kyte
+147,147,0.333333333333,873951,565645,The Fool On The Hill,Sony Wonder,The Wheels On The Bus,
+148,148,0.333333333333,237209,715214,Not Anyone,Black Box,Black Box Disco,vortex
+149,149,0.333333333333,159406,565645,On the Modification of Clouds,THE EYE,The Wheels On The Bus,
+150,150,0.333333333333,656169,663581,Silent Night,The String Trio of New York,New York State of Mind,h the great
+151,151,0.333333333333,169095,554836,Bonus Track,Billy Boy Arnold,Billy Boy,traditional
+152,152,0.333333333333,843453,670168,On the Grind,Nu-Contrast,Get On,the dirtmitts
+153,153,0.333333333333,223866,88588,Llega La Noche,Cabas,Mal amor,la noche
+154,154,0.333333333333,783423,5344,Static In The Whole,The Winter Sounds,In The Mood,the syndakit
+155,155,0.333333333333,134185,5344,The In Crowd,The Mike Flowers Pops,In The Mood,the syndakit
+156,156,0.333333333333,129939,138957,Angola_ LA & The 13th Amendment,Christian Scott,The Stretch,13th amendment
+157,157,0.333333333333,578225,675693,Waste,The Amber Light,The Light,brittney bouchard
+158,158,0.333333333333,930544,699600,25 Ta Life (Album Version),Saafir,Over the Years,25 ta life
+159,159,0.333333333333,369076,114443,Dumb,The Beautiful South,Hey Beautiful,the solids
+160,160,0.333333333333,150780,28258,The Blame,All Star United,The Star,aurea
+161,161,0.333333333333,843453,311101,On the Grind,Nu-Contrast,On The Run,therealjonsmith
+162,162,0.333333333333,425869,28258,The Slightest Touch,Five Star,The Star,aurea
+163,163,0.333333333333,150780,28238,The Blame,All Star United,The Star,aurea
+164,164,0.333333333333,168216,513092,Banish me,Les Anges de la Nuit,Les Gars de la Marine,
+165,165,0.333333333333,135944,135858,Grizzly Bear,The Youngbloods,Yet Again,grizzly bear
+166,166,0.333333333333,43862,5344,Walk In The Light,The American Boychoir,In The Mood,the syndakit
+167,167,0.333333333333,308076,675259,Sonnet,The End,The End Title,randy newman
+168,168,0.333333333333,951721,170958,The Moment,Sun Yan-Zi,Under the Sun,cheryl
+169,169,0.333333333333,173993,558128,The Race Is On,George Jones,The Search Is On,fred kron
+170,170,0.333333333333,479921,670168,On The Money,Floor,Get On,the dirtmitts
+171,171,0.333333333333,623223,351010,Yakayaka!,Michel Korb,Michel,
+172,172,0.333333333333,118326,562178,The First Noel,Weezer,The Masterplan,noel gallagher+oasis
+173,173,0.333333333333,3365,176187,As It Was,Bumpus,It was real,livi
+174,174,0.333333333333,943362,590538,Fire,Los Fancy Free,Excerpt from Fancy Free,
+175,175,0.333333333333,16776,305901,New York,Tupac,Human Being,new york dolls
+176,176,0.333333333333,951721,551261,The Moment,Sun Yan-Zi,The Sun is Shinig,
+177,177,0.333333333333,293253,92568,Ghost Riders in the Sky,Scary Bitches,Home,explosions in the sky
+178,178,0.333333333333,85923,713626,Emergency,The Answering Machine,Machine Gun,the commodores
+179,179,0.333333333333,810169,363600,At The Forge,Twilightning,At The Restaurant,anastasia
+180,180,0.333333333333,681879,188473,9/11 2 (1),Joan Of Arc,Joan of Arc,emily wells+jeremy ross
+181,181,0.333333333333,150780,26888,The Blame,All Star United,The Star,aurea
+182,182,0.3125,263918,554630,Peace in the Valley,The Sons of the Pioneers_ Roy Rogers,The Story of the Lady in the Fan,bonnie bonnell
+183,183,0.307692307692,172688,663581,We Three Kings,The String Trio of New York,New York State of Mind,h the great
+184,184,0.307692307692,839115,559326,The Portrait Of Dorian Gray,I Wish I,I Wish I Were An Angel,the kelly family
+185,185,0.307692307692,890611,257661,It Began In The Wind,Echo Is Your Love,Love Is In the Air ,john paul young
+186,186,0.307692307692,54999,334185,My Fair Lady,the bird and the bee,The Honeysuckle and the Bee,the bologne club company
+187,187,0.307692307692,246615,172440,Building In L.O.V.E.,The Hundred In The Hands,In Debt to the Heart,born in the flood
+188,188,0.307692307692,775421,723417,Shadows of the Night,The Scientists,Youve Rocked My Life,jonathon the impaler sharkey+creatures of the night
+189,189,0.307692307692,179480,554630,The City In The Sea,The Ocean,The Story of the Lady in the Fan,bonnie bonnell
+190,190,0.307692307692,493125,107277,The Color Of Psychic Power (Live),Today Is The Day,The Day Is My Enemy,the prodigy
+191,191,0.307692307692,546512,92603,Pie in the Sky (Preacher and the Slave),Joe Glazer,Snow and Lights,explosions in the sky
+192,192,0.3,170559,307477,On The Hill,The Wolfgang Press,The Surrey with the Fringe on Top,
+193,193,0.3,402200,565645,Play The Blues On The Moon,Byther Smith,The Wheels On The Bus,
+194,194,0.3,866089,520923,At The Hop,Danny And The Juniors,Up at the Lake,the charlatans
+195,195,0.3,775421,595090,Shadows of the Night,The Scientists,Yellow Stripes,the sons of the pioneers
+196,196,0.3,682540,348487,Hope with u,The Man Behind C.,Man with the Blues,david rose
+197,197,0.3,539884,305633,Shadow of Man,Writing On the Wall,Fly On The Wall,kelly pardekooper
+198,198,0.3,696779,107277,Wicked Game,Today Is The Day,The Day Is My Enemy,the prodigy
+199,199,0.3,327099,655572,Son et Lumiere,The Mars Volta,The Chase,georges delerue  et son orchestre
