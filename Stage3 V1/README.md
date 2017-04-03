@@ -1,10 +1,10 @@
 # Stage 3: Entity Matching with Magellan
 We performed entity match on Songs and Tracks.
 
-## Jupyter Notebook
+## Code: Jupyter Notebook
 Our process is documented in CS838+Stage+3+V1.ipynb.
 
-## Tables
+## DATA: Tables
 ### Source Data
 We used the Songs and Tracks datasets provided, but downsampled them into sampleA (17731 tuples) and sampleB (10,0000 tuples) respectively. The attributes were left unchanged.
 
