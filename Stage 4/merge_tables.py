@@ -69,7 +69,7 @@ if __name__ == '__main__':
     table1.sort('id', ascending=True, inplace=True)
     table2 = pd.read_csv('./sampleB.csv', index_col=False)
     table2.sort('id', ascending=True, inplace=True)
-    matcher = pd.read_csv('./Matches.csv', index_col=False)
+    matcher = pd.read_csv('./Matches_Cleaned.csv', index_col=False)
     matcher.sort('ltable_id', ascending=True, inplace=True)
     merge_table(table1, table2, matcher)
 	
